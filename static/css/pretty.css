@@ -1,0 +1,16 @@
+h2{
+    color: steelblue;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+}
+td,th {
+    border: 2px solid palegreen;
+    padding: 10px;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {color: crimson}

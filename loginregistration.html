@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/css/logsregs.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>loginregistration</title>
+</head>
+<body>
+<div class="container">
+<!--    log in page-->
+<div id="login-form">
+    <h2>Login</h2>
+    <form action="">
+       <div class="form-group">
+    <label for="login-email">Email</label>
+    <input type="email" id="login-email" name="email" placeholder="enter email" required>
+      </div>
+    <div class="form-group">
+        <label for="pass">password</label>
+        <input type="password" id="pass" name="password" placeholder="enter password" required>
+    </div>
+        <br>
+    <button type="submit">Login</button>
+    </form>
+    </div>
+<!--    registration-->
+    <div id="registration-form">
+        <h2>register</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="register-name">Full name</label>
+                <input type="text" id="register-name" name="name"
+                placeholder="enter name"required>
+            </div>
+            <div class="form-group">
+                <label for="register-email">Email</label>
+                <input type="email" id="register-email" name="email"
+                placeholder="enter email" required>
+            </div>
+            <div class="form-group">
+                <label for="register-password">Password</label>
+                <input type="password" id="register-password" placeholder="enter password" required>
+            </div>
+            <br>
+             <div class="form-group">
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="Gender">
+                <label for="female">female</label>
+                <input type="radio" id="female" name="Gender">
+
+            </div>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
